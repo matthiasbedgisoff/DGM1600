@@ -1,0 +1,11 @@
+
+The If statements are used to for testing if a condition is true or false.
+An example was for our number guessing game. 
+If the number was higher than 50 then the command will be executed to guess a higher number. 
+We can give it more if commands to be able to process many other steps when an action is taking place. 
+If statements can have many conditions as will. 
+If you want it to check more than one condition you can use two types of operations. 
+The first one is the AND operator which is written as “&&”. 
+This operator means that all the conditions inside the parentheses must all be true for the code to be executed. 
+The other operator is the OR operator which is written “||”. 
+Unlike the AND operator only one condition in the parentheses needs to be true.
