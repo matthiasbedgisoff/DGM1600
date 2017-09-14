@@ -20,11 +20,12 @@ public class Guessing : MonoBehaviour {
 
 
 		textBox.text = "Welcome to Number Guesser "
-				+ "\n Pick a number in your head"
-				+"\n\nThe highest number you can pick is " + max
-				+ "\nThe lowest number you can pick is " + min
-				+"\n\nIs the number higher or lower than " + guess
-				+ "\n Up arrow for higher, Down for lower, Enter for equal";
+		+ "\n Pick a number in your head"
+		+ "\n\nThe highest number you can pick is " + max
+		+ "\nThe lowest number you can pick is " + min
+		+ "\n\nIs the number higher or lower than " + guess
+		+ "\n Up arrow for higher, Down for lower, Enter for equal";
+
 
 
 
@@ -48,6 +49,10 @@ public class Guessing : MonoBehaviour {
 
 			if (Input.GetKeyDown (KeyCode.UpArrow) || Input.GetKeyDown (KeyCode.DownArrow)) {
 				//counter--;
+
+				textBox.text = 
+					"\n\n You win! Humanity has beaten me for now";
+
 				print ("You win! Humanity has beaten me for now");
 			}
 
@@ -58,15 +63,36 @@ public class Guessing : MonoBehaviour {
 			min = guess;  
 			guess = (max + min) / 2;
 			counter--;
+
+			textBox.text= 
+				"\n\nIs the number higher or lower than " + guess;
+
 			print ("Is the number higher or lower than " + guess);
+
+
+
 		}
 		else if (Input.GetKeyDown (KeyCode.DownArrow)) {
 			max = guess;	
 			guess = (max + min) / 2;
 			counter--;
+
+			textBox.text= 
+				"\n\nIs the number higher or lower than " + guess;
+
 			print ("Is the number higher or lower than " + guess);
 		}	
+
+
+
+
 		if (Input.GetKeyDown (KeyCode.Return)) {
+
+
+			textBox.text =
+				"\n\n I win, humanity is unintelligent";
+
+
 			print ("I win, humanity is unintelligent");
 		
 		}
