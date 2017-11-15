@@ -8,6 +8,8 @@ public class PlayerController : MonoBehaviour {
 	public GameObject projectile;
 	public Transform shotPos;
 	public float shotForce;
+	public ParticleSystem particles;
+	public GameObject health;
 
 
 
@@ -17,14 +19,13 @@ public class PlayerController : MonoBehaviour {
 	
 
 	void Update () {
-
-		//check for button push
-		//printsomething out
-		//move our player + speed
-		//down
-		//left
-		//right
-		//up
+		
+		if (Input.GetKey (KeyCode.Space)) {
+			rigid.AddRelativeForce (new Vector2 (Or, thrusterForce), ForceMode2D.Force);
+			particles.Emit (1);
+		} else {
+			particles.Stop ();
+		}
 
 		if(Input.GetButtonUp("Fire1"))
 		{
@@ -34,35 +35,15 @@ public class PlayerController : MonoBehaviour {
 		}
 
 
-
-
-
-
-
-		if (Input.GetKeyDown(KeyCode.LeftArrow))
-		{
-			Vector3 position = this.transform.position;
-			position.x--;
-			this.transform.position = position;
+		switch (health) {
+		case 1: //do this stuff; break;
+		case 2:
+		default:
+			break;
 		}
-		if (Input.GetKeyDown(KeyCode.RightArrow))
-		{
-			Vector3 position = this.transform.position;
-			position.x++;
-			this.transform.position = position;
-		}
-		if (Input.GetKeyDown(KeyCode.UpArrow))
-		{
-			Vector3 position = this.transform.position;
-			position.y++;
-			this.transform.position = position;
-		}
-		if (Input.GetKeyDown(KeyCode.DownArrow))
-		{
-			Vector3 position = this.transform.position;
-			position.y--;
-			this.transform.position = position;
-		}
+
+
+
 
 
 
