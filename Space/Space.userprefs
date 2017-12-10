@@ -1,13 +1,30 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PlayerController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Health2.cs">
     <Files>
+      <File FileName="Assets\Scripts\Meteors.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PlayerController.cs" Line="33" Column="25" />
       <File FileName="Assets\Scripts\Follow.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\PlayerController.cs" Line="25" Column="23" />
+      <File FileName="Assets\Scripts\LevelManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\powerups.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Health2.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Health.cs" Line="119" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\Matthias\Documents\DGM1600\DGM1600\Space\Assets\Scripts\Health2.cs" line="76" column="1" />
+      <Breakpoint file="C:\Users\Matthias\Documents\DGM1600\DGM1600\Space\Assets\Scripts\Health2.cs" line="69" column="11" />
+      <RunToCursorBreakpoint file="C:\Users\Matthias\Documents\DGM1600\DGM1600\Space\Assets\Hearts.cs" line="13" column="13" />
+      <RunToCursorBreakpoint file="C:\Users\Matthias\Documents\DGM1600\DGM1600\Space\Assets\Hearts.cs" line="21" column="26" />
+      <RunToCursorBreakpoint file="C:\Users\Matthias\Documents\DGM1600\DGM1600\Space\Assets\Scripts\Health.cs" line="13" column="2" />
+      <RunToCursorBreakpoint file="C:\Users\Matthias\Documents\DGM1600\DGM1600\Space\Assets\Scripts\Health.cs" line="16" column="15" />
+      <RunToCursorBreakpoint file="C:\Users\Matthias\Documents\DGM1600\DGM1600\Space\Assets\Scripts\Health.cs" line="22" column="4" />
+      <RunToCursorBreakpoint file="C:\Users\Matthias\Documents\DGM1600\DGM1600\Space\Assets\Scripts\Health.cs" line="34" column="12" />
+      <RunToCursorBreakpoint file="C:\Users\Matthias\Documents\DGM1600\DGM1600\Space\Assets\Scripts\Health.cs" line="41" column="2" />
+      <RunToCursorBreakpoint file="C:\Users\Matthias\Documents\DGM1600\DGM1600\Space\Assets\Scripts\Health.cs" line="42" column="2" />
+      <RunToCursorBreakpoint file="C:\Users\Matthias\Documents\DGM1600\DGM1600\Space\Assets\Scripts\Health.cs" line="40" column="2" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

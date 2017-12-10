@@ -6,11 +6,14 @@ using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour {
 
-
-	public static int brickCount;
+	public static int player;
+	public static int meteorsCount;
+	public static int Gameover;
+	public static int Win;
 
 	void Start(){
-		
+		meteorsCount = FindObjectsOfType<Meteors> ().Length;
+		print (meteorsCount);
 	}
 
 
@@ -28,6 +31,7 @@ public class LevelManager : MonoBehaviour {
 	public void LoadNextLevel () {
 		SceneManager.LoadScene (SceneManager.GetActiveScene().buildIndex + 1);
 	}
+
 
 
 }

@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Laser
+  - Meteors
+  - meteors
+  - ship
+  - Rock
   layers:
   - Default
   - TransparentFX
@@ -14,10 +18,10 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - powerups
+  - Player
+  - Meteors
+  - laser
   - 
   - 
   - 
