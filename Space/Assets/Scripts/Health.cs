@@ -74,8 +74,8 @@ public class Health : MonoBehaviour {
 		startHearts++;
 		startHearts = Mathf.Clamp (startHearts, 0, maxHeartAmount);
 
-		//curHealth = startHearts * healthPerHeart;
-		//maxHealth = maxHeartAmount * healthPerHeart;
+		curHealth = startHearts * healthPerHeart;
+		maxHealth = maxHeartAmount * healthPerHeart;
 
 		checkHealthAmount ();
 	}
