@@ -1,0 +1,5 @@
+Varibles are like boxes that contain information. For each information you need to make a new varible. 
+The void start command is used for the object when it first enters the scene.
+To make a varibles more detial you need to add functions which do return actions.
+We can make fuctions give us boxes back or return.
+Voids do not return.
